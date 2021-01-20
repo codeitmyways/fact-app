@@ -9,11 +9,17 @@
 /* Begin PBXBuildFile section */
 		A103963625B7E55700CC0034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103963525B7E55700CC0034 /* AppDelegate.swift */; };
 		A103963825B7E55700CC0034 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103963725B7E55700CC0034 /* SceneDelegate.swift */; };
-		A103963A25B7E55700CC0034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103963925B7E55700CC0034 /* ViewController.swift */; };
 		A103963F25B7E55900CC0034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A103963E25B7E55900CC0034 /* Assets.xcassets */; };
 		A103964225B7E55900CC0034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A103964025B7E55900CC0034 /* LaunchScreen.storyboard */; };
 		A103964D25B7E55900CC0034 /* Fact_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103964C25B7E55900CC0034 /* Fact_AppTests.swift */; };
 		A103965825B7E55900CC0034 /* Fact_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A103965725B7E55900CC0034 /* Fact_AppUITests.swift */; };
+		A10C482325B7EBCF00319EB8 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C482225B7EBCF00319EB8 /* SessionManager.swift */; };
+		A10C482B25B7EC0300319EB8 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C482A25B7EC0300319EB8 /* Environment.swift */; };
+		A10C483725B7EFEB00319EB8 /* APIEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C483625B7EFEB00319EB8 /* APIEndpoints.swift */; };
+		A10C483C25B7F05E00319EB8 /* APIRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C483B25B7F05E00319EB8 /* APIRequests.swift */; };
+		A10C484925B7F45600319EB8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C484825B7F45600319EB8 /* HomeVC.swift */; };
+		A10C485425B7FCA600319EB8 /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C485325B7FCA600319EB8 /* Fact.swift */; };
+		A10C485925B7FCE200319EB8 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10C485825B7FCE200319EB8 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +43,6 @@
 		A103963225B7E55700CC0034 /* Fact-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fact-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A103963525B7E55700CC0034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A103963725B7E55700CC0034 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A103963925B7E55700CC0034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A103963E25B7E55900CC0034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A103964125B7E55900CC0034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A103964325B7E55900CC0034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		A103965325B7E55900CC0034 /* Fact-AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fact-AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A103965725B7E55900CC0034 /* Fact_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact_AppUITests.swift; sourceTree = "<group>"; };
 		A103965925B7E55900CC0034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A10C482225B7EBCF00319EB8 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		A10C482A25B7EC0300319EB8 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		A10C483625B7EFEB00319EB8 /* APIEndpoints.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIEndpoints.swift; sourceTree = "<group>"; };
+		A10C483B25B7F05E00319EB8 /* APIRequests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequests.swift; sourceTree = "<group>"; };
+		A10C484825B7F45600319EB8 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		A10C485325B7FCA600319EB8 /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		A10C485825B7FCE200319EB8 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +109,11 @@
 		A103963425B7E55700CC0034 /* Fact-App */ = {
 			isa = PBXGroup;
 			children = (
+				A10C484025B7F3B700319EB8 /* Module */,
+				A10C482F25B7EC1500319EB8 /* Environment */,
+				A10C482025B7EBA800319EB8 /* Helper */,
 				A103963525B7E55700CC0034 /* AppDelegate.swift */,
 				A103963725B7E55700CC0034 /* SceneDelegate.swift */,
-				A103963925B7E55700CC0034 /* ViewController.swift */,
 				A103963E25B7E55900CC0034 /* Assets.xcassets */,
 				A103964025B7E55900CC0034 /* LaunchScreen.storyboard */,
 				A103964325B7E55900CC0034 /* Info.plist */,
@@ -123,6 +137,74 @@
 				A103965925B7E55900CC0034 /* Info.plist */,
 			);
 			path = "Fact-AppUITests";
+			sourceTree = "<group>";
+		};
+		A10C482025B7EBA800319EB8 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				A10C482125B7EBB500319EB8 /* Network */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		A10C482125B7EBB500319EB8 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A10C482225B7EBCF00319EB8 /* SessionManager.swift */,
+				A10C483625B7EFEB00319EB8 /* APIEndpoints.swift */,
+				A10C483B25B7F05E00319EB8 /* APIRequests.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A10C482F25B7EC1500319EB8 /* Environment */ = {
+			isa = PBXGroup;
+			children = (
+				A10C482A25B7EC0300319EB8 /* Environment.swift */,
+			);
+			path = Environment;
+			sourceTree = "<group>";
+		};
+		A10C484025B7F3B700319EB8 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				A10C484425B7F41C00319EB8 /* Home */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		A10C484425B7F41C00319EB8 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A10C484725B7F43300319EB8 /* View */,
+				A10C484625B7F42900319EB8 /* ViewModel */,
+				A10C484525B7F42400319EB8 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A10C484525B7F42400319EB8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A10C485325B7FCA600319EB8 /* Fact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A10C484625B7F42900319EB8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A10C485825B7FCE200319EB8 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A10C484725B7F43300319EB8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A10C484825B7F45600319EB8 /* HomeVC.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,9 +336,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A103963A25B7E55700CC0034 /* ViewController.swift in Sources */,
+				A10C483C25B7F05E00319EB8 /* APIRequests.swift in Sources */,
+				A10C485925B7FCE200319EB8 /* HomeViewModel.swift in Sources */,
+				A10C484925B7F45600319EB8 /* HomeVC.swift in Sources */,
 				A103963625B7E55700CC0034 /* AppDelegate.swift in Sources */,
+				A10C485425B7FCA600319EB8 /* Fact.swift in Sources */,
+				A10C482325B7EBCF00319EB8 /* SessionManager.swift in Sources */,
+				A10C483725B7EFEB00319EB8 /* APIEndpoints.swift in Sources */,
 				A103963825B7E55700CC0034 /* SceneDelegate.swift in Sources */,
+				A10C482B25B7EC0300319EB8 /* Environment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
