@@ -20,8 +20,8 @@ class FactCell: UITableViewCell {
         lbl.translatesAutoresizingMaskIntoConstraints = false
         return lbl
     }()
-    let imgView : UIImageView = {
-        let imageView = UIImageView(frame: CGRect(x: 0,y: 0,width: 40,height: 40))
+    let imgView : URLImageView = {
+        let imageView = URLImageView(frame: CGRect(x: 0,y: 0,width: 40,height: 40))
         imageView.translatesAutoresizingMaskIntoConstraints = false
         if #available(iOS 13.0, *) {
             imageView.image = UIImage(systemName: "person.circle.fill")
@@ -33,6 +33,11 @@ class FactCell: UITableViewCell {
         didSet{
             self.lblTitle.text = fact.title
             self.lblDescription.text = fact.description
+            if #available(iOS 13.0, *) {
+                imgView.placeholder = UIImage(systemName: "person.circle.fill")
+            }
+            imgView.setImageWithURL(urlString: fact.imageHref) { (isComplete) in
+            }
             
         }
     }
